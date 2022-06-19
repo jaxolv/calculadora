@@ -1,11 +1,11 @@
 /* Todas as funções da calculadora importadas: */
-import somar from './somar.js'
-import subtrair from './subtrair.js';
-import {multiplicar} from './multiplicar.js';
-import {dividir} from './dividir.js';
-import fatorial from "./fatorial.js";
-import {par} from './parOuImpar.js';
-import {impar} from './parOuImpar.js';
+import somar from './modules/somar.js'
+import subtrair from './modules/subtrair.js';
+import {multiplicar} from './modules/multiplicar.js';
+import {dividir} from './modules/dividir.js';
+import fatorial from "./modules/fatorial.js";
+import {par} from './modules/parOuImpar.js';
+import {impar} from './modules/parOuImpar.js';
 
 console.log(somar(10, 5))
 console.log(subtrair(10, 5))
